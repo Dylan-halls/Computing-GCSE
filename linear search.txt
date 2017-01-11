@@ -1,0 +1,10 @@
+index = 0
+
+while index < len(list):
+   if index == x:
+      exit(1)
+   else:
+      index += 1
+
+
+

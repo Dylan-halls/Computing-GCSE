@@ -1,0 +1,16 @@
+min = 0
+max = len(list)
+index = len(list) / 2
+
+while True:
+   if index == x:
+      END
+   else:
+      if index < x:
+         min = index
+         index = index + index / 2
+         continue
+      else:
+         min = index
+         index = index - index / 2
+         continue
